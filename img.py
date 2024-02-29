@@ -1,5 +1,3 @@
-!pip install git+https://github.com/huggingface/diffusers.git
-!pip install transformers accelerate safetensors
 from diffusers import DiffusionPipeline
 import torch
 
