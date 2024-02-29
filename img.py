@@ -13,4 +13,5 @@ pipe = DiffusionPipeline.from_pretrained(
 
 prompt = "Astronaut in a jungle, cold color palette, muted colors, detailed, 8k"
 image = pipe(prompt=prompt, num_inference_steps=50, guidance_scale=3).images[0]
-image
+import streamlit as st
+st.image('image')
